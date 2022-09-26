@@ -1,0 +1,19 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: build
+        run: ./build-docset.sh
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Snowflake.tgz
