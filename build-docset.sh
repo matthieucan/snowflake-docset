@@ -30,3 +30,11 @@ doc2dash -n Snowflake -i "${OUT}/favicon-32x32.png" "${OUT}"
 
 # Compress docset
 tar -czf Snowflake.tgz Snowflake.docset
+
+# Build XML Feed
+# GITHUB_REF_NAME (i.e. tag of the form `v.0.1.0`) must be present.
+cat > Snowflake.xml <<EOF
+<version>${GITHUB_REF_NAME}</version>
+  <url>https://github.com/matthieucan/snowflake-docset/releases/download/${GITHUB_REF_NAME}/Snowflake.tgz</url>
+</entry>
+EOF

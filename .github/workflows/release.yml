@@ -16,4 +16,4 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: Snowflake.tgz
+          files: Snowflake.tgz Snowflake.xml
