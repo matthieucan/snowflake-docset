@@ -1,1 +1,4 @@
 doc2dash~=3.0
+# Required, as Github Action bundles click~=7.0 which exhibits a bug for
+# Path arguments (when using --icon).
+click>=8.0.0

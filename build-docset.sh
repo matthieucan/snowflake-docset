@@ -25,6 +25,7 @@ wget "${DOCS_URL}/_static/favicon-32x32.png"
 cd ..
 
 # Build docset
+doc2dash --version
 doc2dash -n Snowflake -i "${OUT}/favicon-32x32.png" "${OUT}"
 
 # Compress docset
