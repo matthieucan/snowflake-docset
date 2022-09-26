@@ -1,0 +1,5 @@
+# Output directory
+out
+
+# Python virtual environment
+.venv
