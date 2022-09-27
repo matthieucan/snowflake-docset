@@ -36,6 +36,6 @@ tar -czf Snowflake.docset.tgz Snowflake.docset
 cat > Snowflake.xml <<EOF
 <entry>
   <version>${RELEASE_VERSION}</version>
-  <url>https://github.com/matthieucan/snowflake-docset/releases/download/${RELEASE_VERSION}/Snowflake.tgz</url>
+  <url>https://github.com/matthieucan/snowflake-docset/releases/download/${RELEASE_VERSION}/Snowflake.docset.tgz</url>
 </entry>
 EOF
