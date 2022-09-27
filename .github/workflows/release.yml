@@ -1,9 +1,9 @@
-name: release
+name: Release new docset
 
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "v*"
 
 jobs:
   build:
