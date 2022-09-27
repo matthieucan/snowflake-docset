@@ -30,7 +30,7 @@ doc2dash --version
 doc2dash -n Snowflake -i "${OUT}/favicon-32x32.png" "${OUT}"
 
 # Compress docset
-tar -czf Snowflake.tgz Snowflake.docset
+tar -czf Snowflake.docset.tgz Snowflake.docset
 
 # Build XML Feed
 cat > Snowflake.xml <<EOF
