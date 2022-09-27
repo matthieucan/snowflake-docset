@@ -1,5 +1,8 @@
-# Output directory
+# Generated content
 out
+Snowflake.docset
+Snowflake.docset.tgz
+Snowflake.xml
 
 # Python virtual environment
 .venv
