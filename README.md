@@ -13,11 +13,6 @@ The Snowflake documentation in the docset is copyrighted by
 
 ## Installation
 
-### With dash-feed://
-
-If your computer is configured to open `dash-feed://` URIs with Dash/Zeal,
-[click here to install the docset](dash-feed://https%3A%2F%2Fgithub.com%2Fmatthieucan%2Fsnowflake-docset%2Freleases%2Flatest%2Fdownload%2FSnowflake.xml).
-
 ### With Feed URL
 
 The easiest way to install this docset is by adding a Feed URL. In Zeal,
