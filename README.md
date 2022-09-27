@@ -13,7 +13,7 @@ The Snowflake documentation in the docset is copyrighted by
 
 ## Installation
 
-### With Feed URL
+### Feed URL
 
 The easiest way to install this docset is by adding a Feed URL. In Zeal,
 navigate to Tools > Docsets > Add feed, and paste the following URL:
@@ -22,7 +22,7 @@ navigate to Tools > Docsets > Add feed, and paste the following URL:
 https://github.com/matthieucan/snowflake-docset/releases/latest/download/Snowflake.xml
 ```
 
-### With docset download
+### Download docset
 
 Retrieve the latest version of the docset:
 
@@ -57,7 +57,8 @@ another workflow will build a release out of this tag.
 This allows minimum maintenance of the repository, while still benefitting from
 up-to-date documentation.
 
-To manually trigger a release, simply push a new tag, you can do with:
+To manually trigger a release, simply push a new tag:
+
 ```shell
 ./push-tag.sh
 ```
