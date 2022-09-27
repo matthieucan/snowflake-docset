@@ -9,5 +9,6 @@ else
 fi
 
 TAG=$(date +v%Y.%m.%d)"${SUFFIX}"
+echo "New tag: ${TAG}"
 git tag "${TAG}"
 git push origin "${TAG}"
