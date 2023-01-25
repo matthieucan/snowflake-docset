@@ -51,8 +51,8 @@ instructions in the previous section.
 
 ## Repository maintenance
 
-Every 1st day of the month, a Github workflow will push a new git tag. Then,
-another workflow will build a release out of this tag.
+Every 1st day of the month, a Github workflow will push a new commit and a new
+git tag. Then, another workflow will build a release out of this tag.
 
 This allows minimum maintenance of the repository, while still benefitting from
 up-to-date documentation.
