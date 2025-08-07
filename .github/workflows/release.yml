@@ -6,6 +6,9 @@ on:
       - "Push new tag"
     types:
       - completed
+  push:
+    tags:
+      - "v*"
 
 jobs:
   build:
