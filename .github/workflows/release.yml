@@ -1,9 +1,11 @@
 name: Release new docset
 
 on:
-  push:
-    tags:
-      - "v*"
+  workflow_run:
+    workflows:
+      - "Push new tag"
+    types:
+      - completed
 
 jobs:
   build:
