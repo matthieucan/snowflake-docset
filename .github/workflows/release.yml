@@ -23,7 +23,7 @@ jobs:
       # Extract tag, required for `on.workflow_run`.
       - name: Get latest tag
         id: get-latest-tag
-        run: git tag | tail -n 1 | { read tag; echo "tag-name=tag" } >> $GITHUB_OUTPUT
+        run: ./get-latest-tag.sh
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
