@@ -1,6 +1,7 @@
 name: Push new tag
 
 on:
+  workflow_dispatch: null
   schedule:
     # every 1st of the month
     - cron:  '0 0 1 * *'
