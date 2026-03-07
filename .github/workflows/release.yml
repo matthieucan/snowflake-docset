@@ -24,6 +24,9 @@ jobs:
       - name: Get latest tag
         id: get-latest-tag
         run: ./get-latest-tag.sh
+      - name: Display latest tag
+        run: |
+          echo "${{ toJSON(steps.get-latest-tag.outputs) }}"
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
